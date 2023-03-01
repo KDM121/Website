@@ -8,7 +8,7 @@ export default function Home() {
         <title>Kierans Website</title>
         <meta name="description" content="Kieran's Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Favicon.ico" />
       </Head>
       <main className="bg-background h-full w-full">
         <div>
