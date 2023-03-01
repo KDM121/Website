@@ -1,9 +1,0 @@
-  <div className="hero min-h-screen">
-    <div className="hero-content flex-col lg:flex-row-reverse">
-      <img src="iconround.png" className="max-w-sm rounded-lg shadow-2xl" />
-      <div>
-        <h1 className="text-7xl text-primary text-right underline underline-offset-4 decoration-4">Hi,</h1>
-        <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">I'm Kieran</h1>
-      </div>
-    </div>
-  </div>

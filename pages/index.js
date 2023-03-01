@@ -34,7 +34,26 @@ export default function Home() {
           </div>
           <div className="drawer drawer-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content"></div>
+
+            <div className="drawer-content">
+              {" "}
+              <div className="hero min-h-screen">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                  <img
+                    src="iconround.png"
+                    className="max-w-sm rounded-lg shadow-2xl"
+                  />
+                  <div>
+                    <h1 className="text-7xl text-primary text-right underline underline-offset-4 decoration-4">
+                      Hi,
+                    </h1>
+                    <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
+                      I'm Kieran
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="drawer-side">
               <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
               <ul className="menu p-4 w-80 bg-neutral text-base-content">
