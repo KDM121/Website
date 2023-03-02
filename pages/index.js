@@ -44,10 +44,10 @@ export default function Home() {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                   <img
                     src="iconround.png"
-                    className="max-w-sm rounded-lg shadow-2xl"
+                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent"
                   />
                   <div>
-                    <h1 className="text-7xl text-primary text-right underline underline-offset-4 decoration-4">
+                    <h1 className="text-7xl text-primary lg:text-right underline underline-offset-4 decoration-4 text-center">
                       Hi,
                     </h1>
                     <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
@@ -59,42 +59,42 @@ export default function Home() {
             </div>
             <div className="drawer-side">
               <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
-              <ul className="menu p-4 w-80 bg-neutral text-base-content">
+              <ul className="menu p-4 w-80 bg-neutral/60 text-base-content border-x-info border-x-8 bg-gradient-to-b from-primary/60 to-secondary/60">
                 {/*      <!-- Sidebar content here --> */}
                 <li>
-                  <Link className="link link-hover" href="/">
+                  <Link href="/">
                     <i className="fa-solid fa-house-chimney"></i>
-                    Home
+                    <h1 className="link link-hover">Home</h1>
                   </Link>
                 </li>
                 <li>
-                  <Link className="link link-hover" href="/Projects">
+                  <Link href="/Projects">
                     <i class="fa-regular fa-diagram-project"></i>
-                    Projects
+                    <h1 className="link link-hover">Projects</h1>
                   </Link>
                 </li>
                 <li>
-                  <Link className="link link-hover" href="/Links">
+                  <Link href="/Links">
                     <i class="fa-solid fa-link"></i>
-                    Links
+                    <h1 className="link link-hover">Links</h1>
                   </Link>
                 </li>
                 <li>
-                  <Link className="link link-hover" href="/About">
+                  <Link href="/About">
                     <i class="fa-solid fa-address-card"></i>
-                    About
+                    <h1 className="link link-hover">About</h1>
                   </Link>
                 </li>
                 <li>
-                  <Link className="link link-hover" href="/Contact">
+                  <Link href="/Contact">
                     <i class="fa-solid fa-address-book"></i>
-                    Contact
+                    <h1 className="link link-hover">Contact</h1>
                   </Link>
                 </li>
                 <li>
-                  <Link className="link link-hover" href="/Wiki">
+                  <Link href="/Wiki">
                     <i class="fa-solid fa-books"></i>
-                    Wiki
+                    <h1 className="link link-hover">Wiki</h1>
                   </Link>
                 </li>
               </ul>
@@ -102,15 +102,15 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <footer className="footer p-10 text-base-content border-t-8 border-secondary">
+          <footer className="footer p-10 text-base-content border-t-8 border-primary">
             <div>
-              <Link className="link link-hover" href="/">
+              <Link href="/" className="link link-hover">
                 Home
               </Link>
-              <Link className="link link-hover" href="/Projects">
+              <Link href="/Projects" className="link link-hover">
                 Projects
               </Link>
-              <Link className="link link-hover" href="/Links">
+              <Link href="/Links" className="link link-hover">
                 Links
               </Link>
             </div>
@@ -128,13 +128,13 @@ export default function Home() {
             <div>
               <div className="grid grid-flow-col gap-4">
                 <a href="https://discord.com/users/765288448059637781">
-                  <i className="fa-brands fa-discord text-lg "></i>
+                  <i className="fa-brands fa-discord text-xl "></i>
                 </a>
                 <a href="">
-                  <i className="fa-light fa-envelope text-lg "></i>
+                  <i className="fa-light fa-envelope text-xl "></i>
                 </a>
                 <a href="https://github.com/KDM121">
-                  <i className="fa-brands fa-github text-lg "></i>
+                  <i className="fa-brands fa-github text-xl "></i>
                 </a>
               </div>
             </div>
