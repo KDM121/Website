@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                   <img
                     src="iconround.png"
-                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent"
+                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent hover:animate-spin"
                   />
                   <div>
                     <h1 className="text-7xl text-primary lg:text-right underline underline-offset-4 decoration-4 text-center">
