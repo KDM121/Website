@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'background': "url('../public/background.svg')"
-      }
+        background: "url('../public/background.svg')",
+      },
     },
   },
   daisyui: {
@@ -19,7 +19,7 @@ module.exports = {
           secondary: "#366293",
           accent: "#2d44b7",
           neutral: "#1B1B1D",
-          "base-100": "#000000",
+          "base-100": "#1c1917",
           info: "#3ABFF8",
           success: "#20CF98",
           warning: "#EFCB71",
