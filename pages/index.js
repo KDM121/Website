@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -61,10 +62,40 @@ export default function Home() {
               <ul className="menu p-4 w-80 bg-neutral text-base-content">
                 {/*      <!-- Sidebar content here --> */}
                 <li>
-                  <a>Sidebar Item 1</a>
+                  <Link className="link link-hover" href="/">
+                    <i className="fa-solid fa-house-chimney"></i>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a>Sidebar Item 2</a>
+                  <Link className="link link-hover" href="/Projects">
+                    <i class="fa-regular fa-diagram-project"></i>
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link link-hover" href="/Links">
+                    <i class="fa-solid fa-link"></i>
+                    Links
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link link-hover" href="/About">
+                    <i class="fa-solid fa-address-card"></i>
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link link-hover" href="/Contact">
+                    <i class="fa-solid fa-address-book"></i>
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link link-hover" href="/Wiki">
+                    <i class="fa-solid fa-books"></i>
+                    Wiki
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -73,26 +104,26 @@ export default function Home() {
         <div>
           <footer className="footer p-10 text-base-content border-t-8 border-secondary">
             <div>
-              <a className="link link-hover" href="/">
+              <Link className="link link-hover" href="/">
                 Home
-              </a>
-              <a className="link link-hover" href="/Projects">
+              </Link>
+              <Link className="link link-hover" href="/Projects">
                 Projects
-              </a>
-              <a className="link link-hover" href="/Links">
+              </Link>
+              <Link className="link link-hover" href="/Links">
                 Links
-              </a>
+              </Link>
             </div>
             <div>
-              <a className="link link-hover " href="/About">
+              <Link className="link link-hover " href="/About">
                 About Me
-              </a>
-              <a className="link link-hover " href="/Contact">
+              </Link>
+              <Link className="link link-hover " href="/Contact">
                 Contact
-              </a>
-              <a className="link link-hover " href="/Wiki">
+              </Link>
+              <Link className="link link-hover " href="/Wiki">
                 Wiki
-              </a>
+              </Link>
             </div>
             <div>
               <div className="grid grid-flow-col gap-4">
