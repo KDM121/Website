@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                   <img
                     src="iconround.png"
-                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent hover:animate-spin"
+                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent "
                   />
                   <div>
                     <h1 className="text-7xl text-primary lg:text-right underline underline-offset-4 decoration-4 text-center">
@@ -130,7 +130,7 @@ export default function Home() {
                 <a href="https://discord.com/users/765288448059637781">
                   <i className="fa-brands fa-discord text-xl "></i>
                 </a>
-                <a href="">
+                <a href="http://mcdonnell.cc/">
                   <i className="fa-light fa-envelope text-xl "></i>
                 </a>
                 <a href="https://github.com/KDM121">
