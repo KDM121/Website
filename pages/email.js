@@ -38,20 +38,21 @@ export default function Home() {
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
 
             <div className="drawer-content">
-              {" "}
-              <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                  <img
-                    src="iconround.png"
-                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent "
-                  />
-                  <div>
-                    <h1 className="text-7xl text-primary lg:text-right underline underline-offset-4 decoration-4 text-center">
-                      Hi,
-                    </h1>
-                    <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
-                      I'm Kieran
-                    </h1>
+              <div className="hero">
+                <div className="hero-content text-center">
+                  <div className="max-w-sm py-5">
+                    <button
+                      className="btn btn-primary hover:underline text-xl btn-lg hover:btn-wide hover:text-2xl"
+                      href="mailto@kieran@mcdonnell.cc"
+                    >
+                      Email Kieran
+                    </button>
+                    <button
+                      className="btn btn-primary hover:underline text-xl btn-lg hover:btn-wide hover:text-2xl"
+                      href="mailto@stuart@mcdonnell.cc"
+                    >
+                      Email Stuart
+                    </button>
                   </div>
                 </div>
               </div>
@@ -101,6 +102,7 @@ export default function Home() {
           </div>
         </div>
         <div>
+          {/*Footer*/}
           <footer className="footer p-10 text-base-content border-t-8 border-primary">
             <div>
               <Link href="/" className="link link-hover">
