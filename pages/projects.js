@@ -40,30 +40,18 @@ export default function Home() {
             <div className="drawer-content">
               {" "}
               {/* Main*/}
-              <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+              <div className="carousel carousel-center max-w-full p-4 space-x-5 bg-neutral rounded-box cetner justify-center">
                 <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-                    className="rounded-box"
-                  />
+                  <img src="/carousel/seafile.png" className="rounded-box" />
                 </div>
                 <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-                    className="rounded-box"
-                  />
+                  <img src="/carousel/Nginx.png" className="rounded-box" />
                 </div>
                 <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-                    className="rounded-box"
-                  />
+                  <img src="/carousel/truenas.png" className="rounded-box" />
                 </div>
                 <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1494253109108-2e30c049369b.jpg"
-                    className="rounded-box"
-                  />
+                  <img src="/carousel/uptime" className="rounded-box" />
                 </div>
                 <div className="carousel-item">
                   <img
