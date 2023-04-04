@@ -39,7 +39,7 @@ export default function Home() {
 
             <div className="drawer-content">
               {" "}
-              <div className="hero min-h-screen">
+              <div className="hero pt-24">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                   <img
                     src="iconround.png"
@@ -52,6 +52,65 @@ export default function Home() {
                     <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
                       I'm Kieran
                     </h1>
+                    <div className="grid grid-flow-col py-8">
+                      <a href="https://discord.com/users/765288448059637781">
+                        <i className="fa-brands fa-discord text-3xl "></i>
+                      </a>
+                      <a href="http://mcdonnell.cc/">
+                        <i className="fa-light fa-envelope text-3xl "></i>
+                      </a>
+                      <a href="https://github.com/KDM121">
+                        <i className="fa-brands fa-github text-3xl "></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="hero">
+                <div className="hero-content text-center text-4xl py-16">
+                  <div className="grid grid-rows-2 gap-7">
+                    <div className="grid grid-cols-3 gap-7">
+                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg ">
+                        <Link href="/Projects">
+                          <i className="fa-regular fa-diagram-project"></i>
+                          <h1 className="link link-hover text-2xl">Projects</h1>
+                        </Link>
+                      </div>
+                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
+                        <Link href="/Links">
+                          <i class="fa-solid fa-link"></i>
+                          <h1 className="link link-hover text-2xl py-2">
+                            Links
+                          </h1>
+                        </Link>
+                      </div>
+                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
+                        <Link href="/About">
+                          <i class="fa-solid fa-address-card"></i>
+                          <h1 className="link link-hover text-2xl py-2">
+                            About
+                          </h1>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-2 gap-7">
+                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
+                        <Link href="/Contact">
+                          <i class="fa-solid fa-address-book"></i>
+                          <h1 className="link link-hover text-2xl py-2 px-4 sm:px-32">
+                            Contact
+                          </h1>
+                        </Link>
+                      </div>
+                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
+                        <Link href="/Wiki">
+                          <i class="fa-solid fa-books"></i>
+                          <h1 className="link link-hover text-2xl py-2">
+                            Wiki
+                          </h1>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -100,45 +159,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <footer className="footer p-10 text-base-content border-t-8 border-primary">
-            <div>
-              <Link href="/" className="link link-hover">
-                Home
-              </Link>
-              <Link href="/Projects" className="link link-hover">
-                Projects
-              </Link>
-              <Link href="/Links" className="link link-hover">
-                Links
-              </Link>
-            </div>
-            <div>
-              <Link className="link link-hover " href="/About">
-                About Me
-              </Link>
-              <Link className="link link-hover " href="/Contact">
-                Contact
-              </Link>
-              <Link className="link link-hover " href="/Wiki">
-                Wiki
-              </Link>
-            </div>
-            <div>
-              <div className="grid grid-flow-col gap-4">
-                <a href="https://discord.com/users/765288448059637781">
-                  <i className="fa-brands fa-discord text-xl "></i>
-                </a>
-                <a href="http://mcdonnell.cc/">
-                  <i className="fa-light fa-envelope text-xl "></i>
-                </a>
-                <a href="https://github.com/KDM121">
-                  <i className="fa-brands fa-github text-xl "></i>
-                </a>
-              </div>
-            </div>
-          </footer>
-        </div>
+        <div></div>
       </main>
     </>
   );
