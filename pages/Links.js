@@ -40,37 +40,49 @@ export default function Home() {
             <div className="drawer-content">
               {" "}
               {/* Main*/}
-              <div className="carousel carousel-center max-w-full p-4 space-x-5 bg-neutral rounded-box cetner justify-center">
-                <div className="carousel-item">
-                  <img src="/carousel/seafile.png" className="rounded-box" />
+              <div className="grid grid-cols-3 grid-flow-rows gap-4">
+                <div class="card lg:card-side bg-base-100 shadow-xl">
+                  <figure>
+                    <img
+                      src="/qr-codes/seafile_QR.png"
+                      alt="QR code for seafile"
+                    />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Seafile</h2>
+                    <p>seafile.kieranmcdonnell.com</p>
+                    <div class="card-actions justify-end">
+                      <a
+                        target="_blank"
+                        href="https://seafile.kieranmcdonnell.com/"
+                      >
+                        <button class="btn btn-primary">Go to</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img src="/carousel/Nginx.png" className="rounded-box" />
+                <div class="card lg:card-side bg-base-100 shadow-xl">
+                  <figure>
+                    <img
+                      src="/qr-codes/status-qr.png"
+                      alt="QR code for seafile"
+                    />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Uptime Kuma</h2>
+                    <p>status.kieranmcdonnell.com</p>
+                    <div class="card-actions justify-end">
+                      <a
+                        target="_blank"
+                        href="https://status.kieranmcdonnell.com/"
+                      >
+                        <button class="btn btn-primary">Go to</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div className="carousel-item">
-                  <img src="/carousel/truenas.png" className="rounded-box" />
-                </div>
-                <div className="carousel-item">
-                  <img src="/carousel/uptime" className="rounded-box" />
-                </div>
-                <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-                    className="rounded-box"
-                  />
-                </div>
-                <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1559181567-c3190ca9959b.jpg"
-                    className="rounded-box"
-                  />
-                </div>
-                <div className="carousel-item">
-                  <img
-                    src="/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-                    className="rounded-box"
-                  />
-                </div>
+                <div>3</div>
+                <div>4</div>
               </div>
             </div>
             <div className="drawer-side">
@@ -85,31 +97,31 @@ export default function Home() {
                 </li>
                 <li>
                   <Link href="/Projects">
-                    <i className="fa-regular fa-diagram-project"></i>
+                    <i class="fa-regular fa-diagram-project"></i>
                     <h1 className="link link-hover">Projects</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Links">
-                    <i className="fa-solid fa-link"></i>
+                    <i class="fa-solid fa-link"></i>
                     <h1 className="link link-hover">Links</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/About">
-                    <i className="fa-solid fa-address-card"></i>
+                    <i class="fa-solid fa-address-card"></i>
                     <h1 className="link link-hover">About</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Contact">
-                    <i className="fa-solid fa-address-book"></i>
+                    <i class="fa-solid fa-address-book"></i>
                     <h1 className="link link-hover">Contact</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Wiki">
-                    <i className="fa-solid fa-books"></i>
+                    <i class="fa-solid fa-books"></i>
                     <h1 className="link link-hover">Wiki</h1>
                   </Link>
                 </li>
