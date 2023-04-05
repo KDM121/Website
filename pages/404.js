@@ -15,9 +15,11 @@ export default function Home() {
               You were successfully redirected to a page that doesn't exist!
             </p>
             <p className="mb-5 ">Maybe go back and try again?</p>
-            <button className="btn btn-primary">
-              <a href="/">Home</a>
-            </button>
+            <a href="/">
+              <button className="btn btn-primary" href="/">
+                Home
+              </button>
+            </a>
           </div>
         </div>
       </div>

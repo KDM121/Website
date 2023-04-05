@@ -1,0 +1,13 @@
+{
+    "DestinationType": "ImageUploader, TextUploader, FileUploader",
+    "RequestURL": "https://ss.kieranmcdonnell.com/upload",
+    "FileFormName": "upload",
+    "Arguments": {
+        "file": "$filename$",
+        "text": "$input$",
+        "token": "token_867bafb65abc5215b0e827db979cac36"
+    },
+    "URL": "$json:url$",
+    "ThumbnailURL": "$json:url$/raw",
+    "DeletionURL": "$json:url$/delete/token_867bafb65abc5215b0e827db979cac36"
+}
