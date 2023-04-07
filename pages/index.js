@@ -38,7 +38,7 @@ export default function Home() {
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
 
             <div className="drawer-content">
-              {" "}
+              {/* Main content*/}
               <div className="hero pt-24">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                   <img
@@ -52,7 +52,7 @@ export default function Home() {
                     <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
                       I'm Kieran
                     </h1>
-                    <div className="grid grid-flow-col py-8">
+                    <div className="grid grid-flow-col py-8 ">
                       <a href="https://discord.com/users/765288448059637781">
                         <i className="fa-brands fa-discord text-3xl "></i>
                       </a>
@@ -70,7 +70,7 @@ export default function Home() {
                 <div className="hero-content text-center text-4xl py-16">
                   <div className="grid grid-rows-2 gap-7">
                     <div className="grid grid-cols-3 gap-7">
-                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg ">
+                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
                         <Link href="/Projects">
                           <i className="fa-regular fa-diagram-project"></i>
                           <h1 className="link link-hover text-2xl">Projects</h1>
@@ -78,36 +78,30 @@ export default function Home() {
                       </div>
                       <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
                         <Link href="/Links">
-                          <i class="fa-solid fa-link"></i>
-                          <h1 className="link link-hover text-2xl py-2">
-                            Links
-                          </h1>
+                          <i className="fa-solid fa-link"></i>
+                          <h1 className="link link-hover text-2xl">Links</h1>
                         </Link>
                       </div>
                       <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
                         <Link href="/About">
-                          <i class="fa-solid fa-address-card"></i>
-                          <h1 className="link link-hover text-2xl py-2">
-                            About
-                          </h1>
+                          <i className="fa-solid fa-address-card"></i>
+                          <h1 className="link link-hover text-2xl">About</h1>
                         </Link>
                       </div>
                     </div>
                     <div className="grid grid-cols-2 gap-7">
                       <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
                         <Link href="/Contact">
-                          <i class="fa-solid fa-address-book"></i>
-                          <h1 className="link link-hover text-2xl py-2 px-4 sm:px-32">
+                          <i className="fa-solid fa-address-book"></i>
+                          <h1 className="link link-hover text-2xl px-4 sm:px-32">
                             Contact
                           </h1>
                         </Link>
                       </div>
                       <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
                         <Link href="/Wiki">
-                          <i class="fa-solid fa-books"></i>
-                          <h1 className="link link-hover text-2xl py-2">
-                            Wiki
-                          </h1>
+                          <i className="fa-solid fa-books"></i>
+                          <h1 className="link link-hover text-2xl">Wiki</h1>
                         </Link>
                       </div>
                     </div>
@@ -127,31 +121,31 @@ export default function Home() {
                 </li>
                 <li>
                   <Link href="/Projects">
-                    <i class="fa-regular fa-diagram-project"></i>
+                    <i className="fa-regular fa-diagram-project"></i>
                     <h1 className="link link-hover">Projects</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Links">
-                    <i class="fa-solid fa-link"></i>
+                    <i className="fa-solid fa-link"></i>
                     <h1 className="link link-hover">Links</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/About">
-                    <i class="fa-solid fa-address-card"></i>
+                    <i className="fa-solid fa-address-card"></i>
                     <h1 className="link link-hover">About</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Contact">
-                    <i class="fa-solid fa-address-book"></i>
+                    <i className="fa-solid fa-address-book"></i>
                     <h1 className="link link-hover">Contact</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Wiki">
-                    <i class="fa-solid fa-books"></i>
+                    <i className="fa-solid fa-books"></i>
                     <h1 className="link link-hover">Wiki</h1>
                   </Link>
                 </li>
