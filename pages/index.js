@@ -52,15 +52,15 @@ export default function Home() {
                     <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
                       I'm Kieran
                     </h1>
-                    <div className="grid grid-flow-col py-8 ">
+                    <div className="grid grid-flow-col py-8">
                       <a href="https://discord.com/users/765288448059637781">
-                        <i className="fa-brands fa-discord text-3xl "></i>
+                        <i className="fa-brands fa-discord text-4xl hover:animate-bounce"></i>
                       </a>
                       <a href="http://mcdonnell.cc/">
-                        <i className="fa-light fa-envelope text-3xl "></i>
+                        <i className="fa-light fa-envelope text-4xl hover:animate-bounce"></i>
                       </a>
                       <a href="https://github.com/KDM121">
-                        <i className="fa-brands fa-github text-3xl "></i>
+                        <i className="fa-brands fa-github text-4xl hover:animate-bounce"></i>
                       </a>
                     </div>
                   </div>
