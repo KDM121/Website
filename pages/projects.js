@@ -51,7 +51,7 @@ export default function Home() {
                   <img src="/carousel/Truenas.png" alt="Truenas core" />
                 </div>
                 <div class="carousel-item">
-                  <img src="/carousel/Uptme.png" alt="Uptime Kuma" />
+                  <img src="/carousel/Uptime.png" alt="Uptime Kuma" />
                 </div>
                 <div class="carousel-item">
                   <img
