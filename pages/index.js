@@ -85,7 +85,7 @@ export default function Home() {
                       <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
                         <Link href="/About">
                           <i className="fa-solid fa-address-card"></i>
-                          <h1 className="link link-hover text-2xl">About</h1>
+                          <h1 className="link link-hover text-2xl">About Me</h1>
                         </Link>
                       </div>
                     </div>
@@ -134,7 +134,7 @@ export default function Home() {
                 <li>
                   <Link href="/About">
                     <i className="fa-solid fa-address-card"></i>
-                    <h1 className="link link-hover">About</h1>
+                    <h1 className="link link-hover">About Me</h1>
                   </Link>
                 </li>
                 <li>

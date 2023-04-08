@@ -40,50 +40,33 @@ export default function Home() {
             <div className="drawer-content">
               {" "}
               {/* Main*/}
-              <div className="hero ">
-                <div className="hero-content text-center pt-32 pb-10">
-                  <div className="max-w-md">
-                    <h1 className="text-5xl font-bold">Contact Information</h1>
-                    <p className="py-6">
-                      Hello, here are some methods to contact me. Please try the
-                      primary email address before the secondary.
+              <div class="hero min-h-screen">
+                <div class="hero-content text-center text-xl">
+                  <div class="max-w-2xl">
+                    <h1 class="text-6xl overline font-bold py-6">About Me</h1>
+                    <p class="py-2">
+                      Hello, my name is Kieran and welcome to my website
                     </p>
-                  </div>
-                </div>
-              </div>
-              <div className="hero">
-                <div className="hero-content text-center text-neutral-content">
-                  <div className="max-w-md">
-                    <div className="border-b border-white my-4"></div>
-                    <Link
-                      className="btn btn-primary"
-                      href="https://discord.com/users/765288448059637781"
-                    >
-                      Discord
-                    </Link>
-                    <div className="border-b border-white my-4"></div>
-                    <Link
-                      className="btn btn-primary"
-                      href="mailto:kieran@mcdonnell.cc"
-                    >
-                      Primary Email
-                    </Link>
-                    <div className="border-b border-white my-4"></div>
-                    <Link
-                      className="btn btn-primary"
-                      href="mailto:krnmcdnnll@gmail.com"
-                    >
-                      {" "}
-                      Secondary Email
-                    </Link>
-                    <div className="border-b border-white my-4"></div>
-                    <Link
-                      className="btn btn-primary"
-                      href="https://github.com/KDM121"
-                    >
-                      {" "}
-                      Github
-                    </Link>
+                    <p className="py-2">
+                      As a computer science student and technology enthusiast, I
+                      have been deeply passionate about computers and related
+                      technologies for the past five years.
+                    </p>
+                    <p className="py-2">
+                      During my free time, I enjoy discovering and implementing
+                      various projects on my personal server. Homelabbing has
+                      become a passionate hobby of mine, and this website serves
+                      as a platform for sharing these projects and providing
+                      convenient access to all of them in one central location.
+                    </p>
+                    <p className="py-2">
+                      I take pleasure in creating, renovating, and restoring old
+                      devices. Instead of turning them into e-waste, I prefer to
+                      breathe new life into them. Over the years, I have built
+                      numerous computers and helped others do the same. It
+                      brings me joy to find new uses for old hardware and keep
+                      them from going to waste.
+                    </p>
                     <div className="border-b border-white my-4"></div>
                   </div>
                 </div>
@@ -101,31 +84,31 @@ export default function Home() {
                 </li>
                 <li>
                   <Link href="/Projects">
-                    <i className="fa-regular fa-diagram-project"></i>
+                    <i class="fa-regular fa-diagram-project"></i>
                     <h1 className="link link-hover">Projects</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Links">
-                    <i className="fa-solid fa-link"></i>
+                    <i class="fa-solid fa-link"></i>
                     <h1 className="link link-hover">Links</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/About">
-                    <i className="fa-solid fa-address-card"></i>
+                    <i class="fa-solid fa-address-card"></i>
                     <h1 className="link link-hover">About</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Contact">
-                    <i className="fa-solid fa-address-book"></i>
+                    <i class="fa-solid fa-address-book"></i>
                     <h1 className="link link-hover">Contact</h1>
                   </Link>
                 </li>
                 <li>
                   <Link href="/Wiki">
-                    <i className="fa-solid fa-books"></i>
+                    <i class="fa-solid fa-books"></i>
                     <h1 className="link link-hover">Wiki</h1>
                   </Link>
                 </li>
