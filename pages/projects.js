@@ -42,28 +42,16 @@ export default function Home() {
               {/* Main*/}
               <div class="carousel carousel-center rounded-box">
                 <div class="carousel-item">
-                  <img
-                    src="/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-                    alt="Pizza"
-                  />
+                  <img src="/carousel/Nginx.png" alt="Nginx" />
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-                    alt="Pizza"
-                  />
+                  <img src="/carousel/Seafile.png" alt="Seafile" />
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-                    alt="Pizza"
-                  />
+                  <img src="/carousel/Truenas.png" alt="Truenas core" />
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="/images/stock/photo-1494253109108-2e30c049369b.jpg"
-                    alt="Pizza"
-                  />
+                  <img src="/carousel/Uptme.png" alt="Uptime Kuma" />
                 </div>
                 <div class="carousel-item">
                   <img

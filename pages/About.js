@@ -45,7 +45,7 @@ export default function Home() {
                   <div class="max-w-2xl">
                     <h1 class="text-6xl overline font-bold py-6">About Me</h1>
                     <p class="py-2">
-                      Hello, my name is Kieran and welcome to my website
+                      Hello, my name is Kieran and welcome to my website.
                     </p>
                     <p className="py-2">
                       As a computer science student and technology enthusiast, I
