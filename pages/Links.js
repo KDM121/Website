@@ -121,12 +121,6 @@ export default function Home() {
                     <h1 className="link link-hover">Contact</h1>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/Wiki">
-                    <i class="fa-solid fa-books"></i>
-                    <h1 className="link link-hover">Wiki</h1>
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
@@ -151,9 +145,6 @@ export default function Home() {
               </Link>
               <Link className="link link-hover " href="/Contact">
                 Contact
-              </Link>
-              <Link className="link link-hover " href="/Wiki">
-                Wiki
               </Link>
             </div>
             <div>

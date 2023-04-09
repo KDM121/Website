@@ -41,26 +41,25 @@ export default function Home() {
               {/* Main content*/}
               <div className="hero pt-24">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                  <img
-                    src="iconround.png"
-                    className=" shadow-2xl md:max-w-sm rounded-full border-8 border-accent "
-                  />
                   <div>
-                    <h1 className="text-7xl text-primary lg:text-right underline underline-offset-4 decoration-4 text-center">
+                    <h1 className="text-7xl text-primary text-center underline underline-offset-4 decoration-4 py-2">
                       Hi,
                     </h1>
-                    <h1 className="text-5xl text-primary text-right underline underline-offset-4 decoration-4">
+                    <h1 className="text-5xl text-primary text-center underline underline-offset-4 decoration-4 py-2">
                       I'm Kieran
                     </h1>
-                    <div className="grid grid-flow-col py-8">
+                    <h1 className="text-3xl text-primary text-center underline underline-offset-4 decoration-4 py-2">
+                      Welcome to my website!
+                    </h1>
+                    <div className="grid grid-flow-col py-8 justify-center">
                       <a href="https://discord.com/users/765288448059637781">
-                        <i className="fa-brands fa-discord text-4xl hover:animate-bounce"></i>
+                        <i className="fa-brands fa-discord text-4xl hover:animate-bounce px-6"></i>
                       </a>
                       <a href="http://mcdonnell.cc/">
-                        <i className="fa-light fa-envelope text-4xl hover:animate-bounce"></i>
+                        <i className="fa-light fa-envelope text-4xl hover:animate-bounce px-6"></i>
                       </a>
                       <a href="https://github.com/KDM121">
-                        <i className="fa-brands fa-github text-4xl hover:animate-bounce"></i>
+                        <i className="fa-brands fa-github text-4xl hover:animate-bounce px-6"></i>
                       </a>
                     </div>
                   </div>
@@ -69,41 +68,37 @@ export default function Home() {
               <div className="hero">
                 <div className="hero-content text-center text-4xl py-16">
                   <div className="grid grid-rows-2 gap-7">
-                    <div className="grid grid-cols-3 gap-7">
-                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
-                        <Link href="/Projects">
-                          <i className="fa-regular fa-diagram-project"></i>
-                          <h1 className="link link-hover text-2xl">Projects</h1>
-                        </Link>
-                      </div>
-                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
-                        <Link href="/Links">
-                          <i className="fa-solid fa-link"></i>
-                          <h1 className="link link-hover text-2xl">Links</h1>
-                        </Link>
-                      </div>
-                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
-                        <Link href="/About">
-                          <i className="fa-solid fa-address-card"></i>
-                          <h1 className="link link-hover text-2xl">About Me</h1>
-                        </Link>
-                      </div>
+                    <div className="grid grid-cols-2 gap-7">
+                      <Link
+                        className="btn-wide bg-slate-900 border-8 rounded-lg border-secondary py-2 hover:underline hover:decoration-4"
+                        href="/Projects"
+                      >
+                        <i className="fa-regular fa-diagram-project pr-2"></i>
+                        Projects
+                      </Link>
+                      <Link
+                        className="btn-wide bg-slate-900 border-8 rounded-lg border-secondary py-2 hover:underline hover:decoration-4"
+                        href="/Links"
+                      >
+                        <i className="fa-solid fa-link pr-2"></i>
+                        Links
+                      </Link>
                     </div>
                     <div className="grid grid-cols-2 gap-7">
-                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
-                        <Link href="/Contact">
-                          <i className="fa-solid fa-address-book"></i>
-                          <h1 className="link link-hover text-2xl px-4 sm:px-32">
-                            Contact
-                          </h1>
-                        </Link>
-                      </div>
-                      <div className="max-w-md bg-slate-900/70 border-secondary border-8 rounded-lg">
-                        <Link href="/Wiki">
-                          <i className="fa-solid fa-books"></i>
-                          <h1 className="link link-hover text-2xl">Wiki</h1>
-                        </Link>
-                      </div>
+                      <Link
+                        className="btn-wide bg-slate-900 border-8 rounded-lg border-secondary py-2 hover:underline hover:decoration-4"
+                        href="/About"
+                      >
+                        <i className="fa-solid fa-address-card pr-2"></i>
+                        About Me
+                      </Link>
+                      <Link
+                        className="btn-wide bg-slate-900 border-8 rounded-lg border-secondary py-2 hover:underline hover:decoration-4"
+                        href="/Contact"
+                      >
+                        <i className="fa-regular fa-address-book pr-2"></i>
+                        Contact
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -141,12 +136,6 @@ export default function Home() {
                   <Link href="/Contact">
                     <i className="fa-solid fa-address-book"></i>
                     <h1 className="link link-hover">Contact</h1>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/Wiki">
-                    <i className="fa-solid fa-books"></i>
-                    <h1 className="link link-hover">Wiki</h1>
                   </Link>
                 </li>
               </ul>
